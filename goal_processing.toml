@@ -1,0 +1,20 @@
+[build-system]
+requires = ["random", "traceback", "typing", "collections", "abc", "uuid", "deepdiff", "time", "asyncio", "queue", "sched", "nest_asyncio", "threading", "copy", "bisect"]
+build-backend = "goal_processing.build"
+[project]
+name = "goal_processing"
+version = "0.0.1"
+authors = [
+  { name="Henrique Emanoel Viana", email="hv5088@gmail.com" },
+]
+description = "Library for processing agent goals. It also covers the generation of explanations."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering"
+]
+[project.urls]
+"Homepage" = "https://github.com/hviana/goal_processing"
